@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "project": "My Life at Nexus Academy",
+  "base_url": "https://axiom-e.github.io/nexus-academy-assets/",
+  "locations": {
+    "academic_building_exterior": {
+      "path": "locations/academy/academic_building_exterior.png",
+      "description": "Nexus Academy's three-story Academic Building, exterior courtyard",
+      "status": "uploaded"
+    }
+  },
+  "characters": {},
+  "rules": {
+    "only_use_listed_assets": true,
+    "do_not_invent_paths": true,
+    "render_format": "![Alt text](FULL_URL)",
+    "avoid_duplicate_images_per_scene": true
+  }
+}
