@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "project": "My Life at Nexus Academy",
   "base_url": "https://axiom-e.github.io/nexus-academy-assets/",
   "locations": {
@@ -9,11 +9,43 @@
       "status": "uploaded"
     }
   },
-  "characters": {},
+  "characters": {
+    "tazuki": {
+      "name": "Tazuki",
+      "role": "student",
+      "year": 1,
+      "homeroom": "1-A",
+      "appearance": {
+        "skin_tone": "medium-dark brown",
+        "hair": "entirely black high-top fade",
+        "eyes": "purple",
+        "height_cm": 185,
+        "facial_hair": "none"
+      },
+      "uniform": {
+        "description": "Dark-gray academy blazer worn unbuttoned, white dress shirt, blue first-year tie, slate-gray trousers",
+        "expressions": {
+          "neutral": {
+            "path": "characters/students/tazuki/uniform/neutral.png",
+            "description": "Tazuki with his usual serious, composed expression",
+            "status": "uploaded"
+          },
+          "happy": {
+            "path": "characters/students/tazuki/uniform/happy.png",
+            "description": "Tazuki smiling naturally with a relaxed, confident expression",
+            "status": "uploaded"
+          }
+        }
+      }
+    }
+  },
   "rules": {
     "only_use_listed_assets": true,
     "do_not_invent_paths": true,
     "render_format": "![Alt text](FULL_URL)",
-    "avoid_duplicate_images_per_scene": true
+    "avoid_duplicate_images_per_scene": true,
+    "expression_selection": "Choose the portrait matching the character's visible expression. Use neutral when no other listed expression applies.",
+    "location_selection": "Display a location image when establishing a new scene at that location.",
+    "continuity": "Do not change character appearance, established relationships, or story events to match an image."
   }
 }
